@@ -3,5 +3,9 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
-  }
+  },
+    "typescript.tsserver.watchOptions": {
+    "watchFile": "useFsEventsOnParentDirectory"
+  },
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false
 }
